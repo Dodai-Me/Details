@@ -50,6 +50,24 @@ class MyApp extends StatelessWidget {
               ),
               Card(
                 color: Colors.white,
+                margin: const EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0),
+                child: ListTile(
+                  leading: const Icon(
+                    Icons.phone,
+                    color: Colors.teal,
+                  ),
+                  title: Text(
+                    'Tel No: +234 802 958 7013',
+                    style: TextStyle(
+                      fontFamily: 'SourceSans3',
+                      fontSize: 20.0,
+                      color: Colors.teal[900]
+                    ),
+                  ),
+                ),
+              ),
+              Card(
+                color: Colors.white,
                 margin: const EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0 ),
                 child: ListTile(
                   leading: const Icon(
@@ -57,12 +75,13 @@ class MyApp extends StatelessWidget {
                     color: Colors.teal,
                   ),
                   title: Text(
-                      '+234 813 708 0004',
+                      'WhatsApp No: +234 813 708 0004',
                       style: TextStyle(
                           fontFamily: 'SourceSans3',
                           fontSize: 20.0,
                           color: Colors.teal.shade900
-                      )
+                    ),
+                    overflow: TextOverflow.fade,
                   ),
                 ),
               ),
