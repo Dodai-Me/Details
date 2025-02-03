@@ -81,7 +81,6 @@ class MyApp extends StatelessWidget {
                           fontSize: 20.0,
                           color: Colors.teal.shade900
                     ),
-                    overflow: TextOverflow.fade,
                   ),
                 ),
               ),
